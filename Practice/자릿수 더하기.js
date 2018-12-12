@@ -1,3 +1,3 @@
 const solution = n => {
-    return [...n + ""].reduce((acc,cur) => Number(acc) + Number(cur), 0) 
+    return [...n + ""].reduce((acc,cur) => acc + Number(cur), 0) 
 }
